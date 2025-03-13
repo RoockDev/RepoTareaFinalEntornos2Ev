@@ -16,5 +16,5 @@ Cuando el usuario selecciona las localidades (5 max y 1 min) y pulsa el botón c
 ## Completar la plantilla con los resultados esperados 8 puntos.
 ## Arreglar alguna funcionalidad que no este funcionando correctamente y añadir un apartado al documento mostrando los arreglos en las pruebas 2 puntos.
 
-## Fecha de entrega 16 de Marzo a las 23.59 a través del aula virtual. Se debe entregar un archivo.txt con el enlace al repositorio (público).
+## Fecha de entrega 16 de Marzo a las 23.59 a través del aula virtual. Se debe entregar un archivo .pdf con vuestro nombre y apellidos
 
