@@ -85,7 +85,7 @@ function seleccionar(){
 /*Compramos las entradas seleccionadas y se actualiza el array de localidades vendidas 
 por sala */
 function confirmarVenta(){
-    if (butacaSel>0){         
+    if (butacaSel>0 && butacaSel <= 5){         
         switch(sala){
             case "1":
                 aVendidas1=vendidas.slice(0,vendidas.length)
@@ -101,10 +101,13 @@ function confirmarVenta(){
         document.getElementById("contenedor").innerHTML="";
         imprimirTicket()
 
-    }  
-    else{
+    }else if(butacaSel > 5){
+        alert("No puedes solucionar mas de 5 entradas")
+
+    }else{
         alert("No ha seccionado ninguna localidad")
     }
+    
 }
 /*Mostramos el ticket de compra con la fecha, película, localidades y precio */
 function imprimirTicket(){
